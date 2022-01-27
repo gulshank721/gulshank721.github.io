@@ -1,0 +1,122 @@
+
+header{
+    /* margin: -5px -5px; */
+    background-color: rgb(250, 233, 220);
+    padding-top: 20px;
+    border-radius: 10px;
+}
+div.intro{
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+div.intro img{
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 20px;
+    width:20%;
+}
+div.intro div#abtme{
+    display: inline-block;
+    border: 2px solid royalblue;
+    width: 60%;
+    text-align: justify;
+}
+
+nav ul{
+    border:2px solid saddlebrown;
+    text-align: end;
+    /* margin: 30px; */
+    padding: 10px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline-block;
+}
+ div#nav ul{
+    color: rgb(252, 252, 252);
+    border: 2px solid rgb(3, 180, 171);
+    text-align: center;
+    margin-top: -10px;
+	position: sticky;
+	top:0;
+    background-color: rgb(14, 67, 224);
+}
+ div#nav ul li{
+    display: inline-block;
+    width:10%;
+    height: 7vh;
+    line-height: 3;
+}
+section#skills div#skillLogo ul{
+    text-align: center;
+    padding: 0%;
+}
+section#skills div#skillLogo li{
+    display: inline-block;
+    margin: 20px; 
+    border: 2px solid palegoldenrod;
+}
+section#aboutme{
+    background-color: rgba(176, 225, 226, 0.76);
+    border-radius: 10px;
+}
+section#aboutme p{
+    /* border: 1px solid rgb(48, 33, 2); */
+    padding: 10px;
+    margin: 0;
+    
+    height: 50vh;
+}
+    section#contactme{
+        position: relative;
+        margin-top: 10px;
+        padding: 50px 16px;
+        background-color: rgb(208, 221, 172);
+        border-radius: 10px;
+    }
+    section#contactme  #contactform{
+        display: inline-block;
+        padding: 10px;
+        background-color: rgb(111, 160, 157);
+        width: 87vh;
+        border-radius: 10px;
+    }
+    section#contactme div#mycont{
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        margin: 20px;
+        display: inline-block;
+        /* border: 1px solid black; */
+
+    }
+    section#contactme div#mycont div{
+    border-bottom: 1px solid black;
+    }
+    @media screen and (max-width:768px){
+        section#contactme  #contactform{
+            display: block;
+            padding: 10px;
+            background-color: rgb(111, 160, 157);
+            width: 70vw;
+            height: 80vh;
+            border-radius: 10px;
+        }
+        section#contactme div#mycont{
+           margin-left: 50px;
+           position: relative; 
+           display: block;
+          width: 100%;
+                /* border: 1px solid black; */
+    
+        }
+        section#contactme div#mycont>div{
+            display: inline-block;
+          width: 30%
+                /* border: 1px solid black; */
+    
+        }
+    
+    }
