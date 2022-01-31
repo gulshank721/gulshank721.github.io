@@ -66,10 +66,10 @@ nav ul li{
 }
  div#nav ul li{
     display: inline-block;
-    width:15%;
+    width:25%;
     height: 7vh;
 
-    line-height: 3;
+    line-height: 2;
 }
 div#nav ul li a{
 color: beige;
