@@ -61,12 +61,12 @@ nav ul li{
     border: 2px solid rgb(3, 180, 171);
     text-align: center;
     margin-top: -10px;
-	
+	padding:0px;
     background-color: rgb(14, 67, 224);
 }
  div#nav ul li{
     display: inline-block;
-    width:25%;
+    width:24%;
     height: 7vh;
 
     line-height: 2;
@@ -93,7 +93,7 @@ section#aboutme p{
     padding: 10px;
     margin: 0;
     
-    height: 50vh;
+    height: 40vh;
 }
     section#contactme{
         position: relative;
@@ -127,7 +127,7 @@ section#aboutme p{
             padding: 10px;
             background-color: rgb(111, 160, 157);
             width: 82vw;
-            height: 73vh;
+            height: 59vh;
             border-radius: 10px;
         }
         section#contactme div#mycont{
@@ -178,7 +178,9 @@ section#aboutme p{
             margin: auto;
             width: 18%;
         }
-        
+        section#contactme  #contactform input,textarea{
+			width:70%;
+		}
 
     
     }
