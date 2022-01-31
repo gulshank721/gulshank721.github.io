@@ -9,30 +9,48 @@ div.intro{
     text-align: center;
     margin: 20px;
     padding: 40px;
+
     box-sizing: border-box;
 }
-div.intro img{
+div.intro #profilePic{
     display: inline-block;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-radius: 20px;
-    width:20%;
+    width:15%;
+    min-width: 125px;
+    
+}
+div.intro #profilePic img{
+   
+    border: 1px solid rgb(110, 34, 34);
+    border-radius: 20px;
+    width:100%;
+    height: auto;
 }
 div.intro div#abtme{
     display: inline-block;
-    border: 2px solid royalblue;
+    /* border: 2px solid rgb(106, 107, 109); */
+    box-shadow: 2px 2px 5px gray;
     width: 60%;
     text-align: justify;
+    margin-left: 3px;
+    padding: 0px 3px ;
+    font-family: monospace;
 }
 
-nav ul{
-    border:2px solid saddlebrown;
+ header nav ul{
+    
     text-align: end;
+    color: beige;
+    background-color:antiquewhite;
+    box-shadow: 0px 0px 3px black;
     /* margin: 30px; */
     padding: 10px;
     box-sizing: border-box;
 }
 nav ul li{
     display: inline-block;
+    color: beige;
 }
  div#nav{
 	 position: sticky;
@@ -48,9 +66,14 @@ nav ul li{
 }
  div#nav ul li{
     display: inline-block;
-    width:10%;
+    width:15%;
     height: 7vh;
+
     line-height: 3;
+}
+div#nav ul li a{
+color: beige;
+font-family: cursive;
 }
 section#skills div#skillLogo ul{
     text-align: center;
@@ -121,5 +144,41 @@ section#aboutme p{
                 /* border: 1px solid black; */
     
         }
+        div.intro #profilePic{
+            display: block;
+            /* border: 2px solid red; */
+            border-radius: 20px;
+            width:30%;
+            margin: auto;
+            
+        }
+        div.intro #profilePic img{
+           
+            border: 1px solid rgb(110, 34, 34);
+            border-radius: 20px;
+            width:100%;
+            height: auto;
+        }
+        div.intro div#abtme{
+            display: block;
+            border: 2px solid royalblue;
+            width: 100%;
+            text-align: center;
+        }
+        header nav ul{
+            
+            text-align:center;
+            background-color: darkslategrey;
+            box-shadow: 0px 0px 5px rgb(179, 0, 0);
+            /* margin: 30px; */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        header nav ul li{
+            margin: auto;
+            width: 18%;
+        }
+        
+
     
     }
