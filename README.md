@@ -1,2 +1,2 @@
-# <a href="gulshank721.github.io/index2.html">gulshank721.github.io/index2.html </a>
-<a href ="gulshank721.github.io/index2.html">Link</a>
+# Check out Below
+[Link to Portfolio Page](gulshank721.github.io/index2.html)
